@@ -6,6 +6,7 @@ This is a full-stack application that allows users add burgers to the list. The 
 ### Installation
 ```
 git clone https://github.com/tedi0722/burger.git
+cd burger/
 npm install
 node server.js
 ```
