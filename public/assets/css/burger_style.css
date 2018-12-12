@@ -1,0 +1,41 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background: lightsteelblue;
+}
+
+h1, h2, ul, li, p, label {
+    color: #333333;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.change-devour {
+    margin: 10px;
+}
+
+.change-devour,
+#add-burger {
+    color: #ffffff;
+    position: relative;
+    background-color: #f39c12;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 7px 1px 5px;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    text-decoration: none;
+}
+
+.change-devour:hover,
+#add-burger:hover {
+    cursor: pointer;
+    background:#fff;
+    box-shadow:0px 2px 10px 5px rgb(219, 223, 228);
+    color:#333333;
+}
+
+#burgerimg {
+    width: 100px;
+}
