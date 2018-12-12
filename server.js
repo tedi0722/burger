@@ -4,7 +4,9 @@ var PORT = process.env.PORT || 3000;
 
 var app = express();
 
-app.use(express.static("public"));
+// app.use(express.static("public"));
+app.use(express.static(path.join(__dirname, './app/public')));
+
 
 // Parse application body as JSON
 app.use(express.urlencoded({ extended: true }));
